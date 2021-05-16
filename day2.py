@@ -20,7 +20,7 @@ def i_gauss(a, b):
     while marker <= b:
         s += gaussian(marker,0,1)*interval
         marker += interval
-    return s
+    return sm
 
 def normalize(vector):
     s = 0.0
